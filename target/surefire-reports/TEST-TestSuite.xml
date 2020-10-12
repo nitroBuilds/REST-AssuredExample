@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="37.883" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\алах\Desktop\REST-Assured Example\target\test-classes;C:\Users\алах\Desktop\REST-Assured Example\target\classes;C:\Users\алах\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\алах\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\алах\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\алах\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\алах\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\алах\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\алах\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\алах\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\алах\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\алах\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\алах\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\алах\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\алах\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\алах\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\алах\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\алах\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\алах\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\алах\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\алах\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\алах\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\алах\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\алах\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\алах\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\алах\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\алах\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\алах\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\алах\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\алах\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\алах\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/>
+    <property name="sun.java.command" value="C:\Users\алах\AppData\Local\Temp\surefire646533959665106908\surefirebooter163057312629121128.jar C:\Users\алах\AppData\Local\Temp\surefire646533959665106908 2020-10-12T20-24-43_139-jvmRun1 surefire2018993766261144768tmp surefire_05574108698145268235tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\алах\Desktop\REST-Assured Example\target\test-classes;C:\Users\алах\Desktop\REST-Assured Example\target\classes;C:\Users\алах\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\алах\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\алах\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\алах\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\алах\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\алах\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\алах\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\алах\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\алах\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\алах\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\алах\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\алах\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\алах\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\алах\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\алах\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\алах\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\алах\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\алах\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\алах\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\алах\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\алах\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\алах\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\алах\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\алах\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\алах\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\алах\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\алах\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\алах\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\алах\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\алах"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_261"/>
+    <property name="basedir" value="C:\Users\алах\Desktop\REST-Assured Example"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\алах\AppData\Local\Temp\surefire646533959665106908\surefirebooter163057312629121128.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="алах"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\алах\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\83AE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\алах\Desktop\REST-Assured Example"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\алах\Desktop\cmder1\bin;C:\Users\алах\Desktop\cmder1\vendor\bin;C:\Users\алах\Desktop\cmder1\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\алах\Desktop\cmder1\vendor\conemu-maximus5;C:\Users\алах\Desktop\cmder1\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Users\алах\AppData\Roaming\npm;C:\Users\алах\AppData\Local\Yarn\bin;C:\Users\алах\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\алах\Desktop\cmder1;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="DeleteBook" classname="BookingTests" time="0.719">
+    <system-out><![CDATA[Configuring TestNG with: TestNG60Configurator
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@740abb5
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@41c07648
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Forbidden
+Forbidden
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateBook" classname="BookingTests" time="0.687">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@1b70203f
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@2c30b71f
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Jim",
+    "lastname": "White",
+    "totalprice": 1111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2020-01-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+Forbidden
+Forbidden
+]]></system-out>
+  </testcase>
+  <testcase name="getBook" classname="BookingTests" time="0.73">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@78c7f9b3
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@4565a70a
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+[
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 24
+    }
+]
+[
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 24
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookId" classname="BookingTests" time="1.094">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@383790cf
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@51e0301d
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+[
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 24
+    }
+]
+[
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 24
+    }
+]
+[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookId1" classname="BookingTests" time="0.75">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@7903d448
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@60bbacfc
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "firstname": "Susan",
+    "lastname": "Jackson",
+    "totalprice": 306,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2020-09-09",
+        "checkout": "2020-10-05"
+    },
+    "additionalneeds": "Breakfast"
+}
+{
+    "firstname": "Susan",
+    "lastname": "Jackson",
+    "totalprice": 306,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2020-09-09",
+        "checkout": "2020-10-05"
+    },
+    "additionalneeds": "Breakfast"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getBookWithSpecBuilder" classname="BookingTests" time="0">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@788ddc1f
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@18578491
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+]]></system-out>
+  </testcase>
+  <testcase name="postBook" classname="BookingTests" time="0.714">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@201c3cda
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@59b65dce
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+{
+    "bookingid": 25,
+    "booking": {
+        "firstname": "Jim",
+        "lastname": "Brown",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+{
+    "bookingid": 25,
+    "booking": {
+        "firstname": "Jim",
+        "lastname": "Brown",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postBookSerialization" classname="BookingTests" time="0.703">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at BookingTests.postBookSerialization(BookingTests.java:98)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@3481ff98
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@167381c7
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "jim",
+    "bookingdates.checkin": "2020-08-02",
+    "bookingdates.checkout": "2030-08-02",
+    "totalprice": "jim",
+    "depositpaid": "jim",
+    "lastname": "jim"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="pingTest" classname="BookingTests" time="0.718">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@75b6dd5b
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@3ff54f3d
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+]]></system-out>
+  </testcase>
+  <testcase name="getBookId" classname="PingTest" time="0.751">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@4519f676
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+[
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 25
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 24
+    }
+]
+[
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 25
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 24
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="pingTest" classname="PingTest" time="0.734">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+io.restassured.internal.ValidatableResponseImpl@3a401749
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/ping
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Created
+Created
+]]></system-out>
+  </testcase>
+</testsuite>
